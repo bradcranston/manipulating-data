@@ -3,5 +3,8 @@ import { companiesData } from "./companies-data";
 const before = document.getElementById("before");
 before.innerHTML = JSON.stringify(companiesData, null, 2);
 
-const manipulatedData = [];
+const manipulatedData = [1,2,3];
+
 //TODO: add the manipulated data array to the 'after' div.
+const after = document.getElementById("after");
+after.innerHTML = JSON.stringify(manipulatedData,null,2)
