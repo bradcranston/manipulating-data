@@ -3,3 +3,8 @@ node_modules
 dist
 import.log
 .parcel-cache
+*.fmp12
+.DS_Store
+Recover.log
+.env
+.env.*
